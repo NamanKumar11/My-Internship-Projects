@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+header {
+    background-color: #333;
+    color: rgb(246, 235, 235);
+    padding: 1em 0;
+    text-align: center;
+    }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    }
+section {
+    padding: 20px;
+    }
+#home {
+    background-color: #e4b4b4;
+}
+#about {
+    background-color: #f5c9c9;
+}
+#contact {
+    background-color: #e4b4b4;
+}
+#portfolio{
+    background-color: #e4b4b4;
+}
+#hero {
+    background-color: #e3b6b6;
+    background-size: contain;
+    background-position: center;
+    color: #240303d7;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#hero h1 {
+    font-size: 52px;
+}
+#hero p {
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #007BFF; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; 
+}
