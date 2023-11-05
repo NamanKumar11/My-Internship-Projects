@@ -1,0 +1,56 @@
+/* Your CSS styles go here */
+/* Styling for the Flipkart-like store */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Styles for the product details page (not implemented here) */
+.product-details {
+    /* Add your styles for the product details page here */
+}
+
+/* Styles for the header, navigation, and other elements */
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+footer {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
