@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main-content {
+    padding: 20px 0;
+}
+
+article {
+    margin-bottom: 40px;
+    
+}
+
+article img {
+    width: 50%;
+    max-height: 460px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    background-color: black;
+    border-color: black;
+}
+
+article h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
